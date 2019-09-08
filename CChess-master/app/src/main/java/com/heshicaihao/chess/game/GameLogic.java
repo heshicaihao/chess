@@ -1,25 +1,25 @@
-package com.hzy.chinese.jchess.game;
+package com.heshicaihao.chess.game;
 
 import android.support.annotation.NonNull;
 
 import com.hzy.chinese.jchess.R;
-import com.hzy.chinese.jchess.xqwlight.Position;
-import com.hzy.chinese.jchess.xqwlight.Search;
+import com.heshicaihao.chess.xqwlight.Position;
+import com.heshicaihao.chess.xqwlight.Search;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-import static com.hzy.chinese.jchess.game.GameConfig.RESP_CAPTURE;
-import static com.hzy.chinese.jchess.game.GameConfig.RESP_CAPTURE2;
-import static com.hzy.chinese.jchess.game.GameConfig.RESP_CHECK;
-import static com.hzy.chinese.jchess.game.GameConfig.RESP_CHECK2;
-import static com.hzy.chinese.jchess.game.GameConfig.RESP_CLICK;
-import static com.hzy.chinese.jchess.game.GameConfig.RESP_DRAW;
-import static com.hzy.chinese.jchess.game.GameConfig.RESP_ILLEGAL;
-import static com.hzy.chinese.jchess.game.GameConfig.RESP_LOSS;
-import static com.hzy.chinese.jchess.game.GameConfig.RESP_MOVE;
-import static com.hzy.chinese.jchess.game.GameConfig.RESP_MOVE2;
-import static com.hzy.chinese.jchess.game.GameConfig.RESP_WIN;
+import static com.heshicaihao.chess.game.GameConfig.RESP_CAPTURE;
+import static com.heshicaihao.chess.game.GameConfig.RESP_CAPTURE2;
+import static com.heshicaihao.chess.game.GameConfig.RESP_CHECK;
+import static com.heshicaihao.chess.game.GameConfig.RESP_CHECK2;
+import static com.heshicaihao.chess.game.GameConfig.RESP_CLICK;
+import static com.heshicaihao.chess.game.GameConfig.RESP_DRAW;
+import static com.heshicaihao.chess.game.GameConfig.RESP_ILLEGAL;
+import static com.heshicaihao.chess.game.GameConfig.RESP_LOSS;
+import static com.heshicaihao.chess.game.GameConfig.RESP_MOVE;
+import static com.heshicaihao.chess.game.GameConfig.RESP_MOVE2;
+import static com.heshicaihao.chess.game.GameConfig.RESP_WIN;
 
 public class GameLogic {
 

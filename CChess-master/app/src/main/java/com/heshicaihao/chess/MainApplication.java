@@ -1,9 +1,10 @@
-package com.hzy.chinese.jchess;
+package com.heshicaihao.chess;
 
 import android.app.Application;
 
 import com.blankj.utilcode.util.LogUtils;
 import com.blankj.utilcode.util.Utils;
+import com.hzy.chinese.jchess.BuildConfig;
 
 /**
  * Created by HZY on 2018/3/6.

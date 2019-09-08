@@ -1,4 +1,4 @@
-package com.hzy.chinese.jchess.game;
+package com.heshicaihao.chess.game;
 
 /**
  * Created by HZY on 2018/3/9.

@@ -1,4 +1,4 @@
-package com.hzy.chinese.jchess.activity;
+package com.heshicaihao.chess.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

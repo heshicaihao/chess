@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hzy.chinese.jchess">
+    package="com.heshicaihao.chess">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".MainApplication"
+        android:name="com.heshicaihao.chess.MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".activity.SplashActivity"
+            android:name="com.heshicaihao.chess.activity.SplashActivity"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -35,19 +35,19 @@
         </activity>
 
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.heshicaihao.chess.activity.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.SettingsActivity"
+            android:name="com.heshicaihao.chess.activity.SettingsActivity"
             android:label="@string/game_settings"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.AboutActivity"
+            android:name="com.heshicaihao.chess.activity.AboutActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activity.WebViewActivity"
+            android:name="com.heshicaihao.chess.activity.WebViewActivity"
             android:screenOrientation="portrait" />
     </application>
 

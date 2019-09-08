@@ -1,0 +1,7 @@
+/CChess-master/.gradle
+/CChess-master/.idea
+/CChess-master/build
+/CChess-master/*.iml
+/CChess-master/local.properties
+/CChess-master/app/*.iml
+/CChess-master/app/build

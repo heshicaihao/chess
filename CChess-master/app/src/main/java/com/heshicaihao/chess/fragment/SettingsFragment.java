@@ -1,4 +1,4 @@
-package com.hzy.chinese.jchess.fragment;
+package com.heshicaihao.chess.fragment;
 
 import android.os.Bundle;
 import android.preference.PreferenceFragment;

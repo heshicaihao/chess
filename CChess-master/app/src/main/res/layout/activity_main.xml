@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_repeat"
-    tools:context="com.hzy.chinese.jchess.activity.MainActivity">
+    tools:context="com.heshicaihao.chess.activity.MainActivity">
 
-    <com.hzy.chinese.jchess.view.GameBoardView
+    <com.heshicaihao.chess.view.GameBoardView
         android:id="@+id/game_board"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

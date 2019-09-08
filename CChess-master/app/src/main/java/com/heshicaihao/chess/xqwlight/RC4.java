@@ -1,4 +1,4 @@
-package com.hzy.chinese.jchess.xqwlight;
+package com.heshicaihao.chess.xqwlight;
 
 /**
  * Created by HZY on 2018/3/6.

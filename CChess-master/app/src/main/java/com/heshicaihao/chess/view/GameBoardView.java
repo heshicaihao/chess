@@ -1,4 +1,4 @@
-package com.hzy.chinese.jchess.view;
+package com.heshicaihao.chess.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -12,10 +12,10 @@ import android.view.MotionEvent;
 import android.view.View;
 
 import com.hzy.chinese.jchess.R;
-import com.hzy.chinese.jchess.game.GameConfig;
-import com.hzy.chinese.jchess.game.GameLogic;
-import com.hzy.chinese.jchess.game.IGameView;
-import com.hzy.chinese.jchess.xqwlight.Position;
+import com.heshicaihao.chess.game.GameConfig;
+import com.heshicaihao.chess.game.GameLogic;
+import com.heshicaihao.chess.game.IGameView;
+import com.heshicaihao.chess.xqwlight.Position;
 
 /**
  * Created by HZY on 2018/3/8.

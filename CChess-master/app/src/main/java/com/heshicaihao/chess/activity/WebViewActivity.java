@@ -1,4 +1,4 @@
-package com.hzy.chinese.jchess.activity;
+package com.heshicaihao.chess.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

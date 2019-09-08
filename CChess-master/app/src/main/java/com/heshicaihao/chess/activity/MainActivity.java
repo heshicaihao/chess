@@ -1,4 +1,4 @@
-package com.hzy.chinese.jchess.activity;
+package com.heshicaihao.chess.activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -16,10 +16,10 @@ import android.widget.ProgressBar;
 import com.blankj.utilcode.util.SnackbarUtils;
 import com.blankj.utilcode.util.StringUtils;
 import com.hzy.chinese.jchess.R;
-import com.hzy.chinese.jchess.game.GameConfig;
-import com.hzy.chinese.jchess.game.GameLogic;
-import com.hzy.chinese.jchess.game.IGameCallback;
-import com.hzy.chinese.jchess.view.GameBoardView;
+import com.heshicaihao.chess.game.GameConfig;
+import com.heshicaihao.chess.game.GameLogic;
+import com.heshicaihao.chess.game.IGameCallback;
+import com.heshicaihao.chess.view.GameBoardView;
 
 import java.util.LinkedList;
 
