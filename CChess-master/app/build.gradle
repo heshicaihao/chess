@@ -3,14 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
 
-    signingConfigs {
-        demokey {
-            storeFile file('demokey.jks')
-            storePassword "demokey"
-            keyAlias 'demokey'
-            keyPassword 'demokey'
-        }
-    }
+
     defaultConfig {
         applicationId "com.hzy.chinese.jchess"
         minSdkVersion 15
@@ -19,17 +12,7 @@ android {
         versionName "1.0.3"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-    buildTypes {
-        debug {
-            minifyEnabled false
-            signingConfig signingConfigs.demokey
-        }
-        release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.demokey
-        }
-    }
+   
     compileOptions {
         targetCompatibility JavaVersion.VERSION_1_8
         sourceCompatibility JavaVersion.VERSION_1_8
