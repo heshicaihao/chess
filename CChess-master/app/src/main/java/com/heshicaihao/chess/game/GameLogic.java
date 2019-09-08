@@ -2,7 +2,7 @@ package com.heshicaihao.chess.game;
 
 import android.support.annotation.NonNull;
 
-import com.hzy.chinese.jchess.R;
+import com.heshicaihao.chess.R;
 import com.heshicaihao.chess.xqwlight.Position;
 import com.heshicaihao.chess.xqwlight.Search;
 

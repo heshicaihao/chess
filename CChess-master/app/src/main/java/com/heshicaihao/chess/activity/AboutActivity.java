@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.blankj.utilcode.util.AppUtils;
-import com.hzy.chinese.jchess.R;
+import com.heshicaihao.chess.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

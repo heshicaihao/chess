@@ -15,7 +15,7 @@ import android.widget.ProgressBar;
 
 import com.blankj.utilcode.util.SnackbarUtils;
 import com.blankj.utilcode.util.StringUtils;
-import com.hzy.chinese.jchess.R;
+import com.heshicaihao.chess.R;
 import com.heshicaihao.chess.game.GameConfig;
 import com.heshicaihao.chess.game.GameLogic;
 import com.heshicaihao.chess.game.IGameCallback;

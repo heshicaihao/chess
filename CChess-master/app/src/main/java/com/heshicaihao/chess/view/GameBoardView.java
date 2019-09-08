@@ -11,7 +11,7 @@ import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.hzy.chinese.jchess.R;
+import com.heshicaihao.chess.R;
 import com.heshicaihao.chess.game.GameConfig;
 import com.heshicaihao.chess.game.GameLogic;
 import com.heshicaihao.chess.game.IGameView;

@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 
 import com.blankj.utilcode.util.ActivityUtils;
-import com.hzy.chinese.jchess.R;
+import com.heshicaihao.chess.R;
 import com.heshicaihao.chess.game.GameConfig;
 import com.heshicaihao.chess.xqwlight.Position;
 

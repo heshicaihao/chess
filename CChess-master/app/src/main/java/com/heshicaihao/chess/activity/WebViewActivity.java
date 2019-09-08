@@ -20,7 +20,7 @@ import android.widget.ProgressBar;
 
 import com.blankj.utilcode.util.NetworkUtils;
 import com.blankj.utilcode.util.StringUtils;
-import com.hzy.chinese.jchess.R;
+import com.heshicaihao.chess.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

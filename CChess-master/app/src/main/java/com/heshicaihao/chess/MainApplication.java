@@ -4,7 +4,7 @@ import android.app.Application;
 
 import com.blankj.utilcode.util.LogUtils;
 import com.blankj.utilcode.util.Utils;
-import com.hzy.chinese.jchess.BuildConfig;
+import com.heshicaihao.chess.BuildConfig;
 
 /**
  * Created by HZY on 2018/3/6.

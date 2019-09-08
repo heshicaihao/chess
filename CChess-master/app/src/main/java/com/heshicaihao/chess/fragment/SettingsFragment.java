@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.support.annotation.Nullable;
 
-import com.hzy.chinese.jchess.R;
+import com.heshicaihao.chess.R;
 
 /**
  * Created by tangbull on 2018/3/13.
