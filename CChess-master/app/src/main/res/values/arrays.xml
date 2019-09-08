@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="open_board_types">
+        <item>No Handicap</item>
+        <item>Handicap Left Knight</item>
+        <item>Handicap Both Knights</item>
+        <item>Handicap 9 Pieces</item>
+    </string-array>
+    <string-array name="computer_ai_level">
+        <item>Beginner</item>
+        <item>Amateurs</item>
+        <item>Professional</item>
+        <item>Master</item>
+        <item>Super Master</item>
+    </string-array>
+    <string-array name="layout_piece_style">
+        <item>Cartoon</item>
+        <item>Wood</item>
+    </string-array>
+
+    <string-array name="open_board_types_value" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="computer_ai_level_value" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="layout_piece_style_value" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>
