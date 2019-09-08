@@ -23,18 +23,34 @@ android {
         versionCode 1
         versionName "1.0.0"
     }
+    android.applicationVariants.all { variant ->
 
+        variant.outputs.all {
+//            outputFileName = "xingxing_${variant.versionCode}_v${variant.versionName}_${buildType.name}.apk"
+            outputFileName = "中国象棋.apk"
+        }
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            minifyEnabled false
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
+        }
+    }
     compileOptions {
         targetCompatibility JavaVersion.VERSION_1_8
         sourceCompatibility JavaVersion.VERSION_1_8
     }
-    applicationVariants.all { variant ->
-        variant.outputs.all {
-            def fileName = project.name + '-' + variant.name + '-V' +
-                    defaultConfig.versionCode + ".apk"
-            outputFileName = fileName
-        }
-    }
+
 }
 
 dependencies {
